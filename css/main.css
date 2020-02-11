@@ -178,4 +178,55 @@ body {
 	text-align: left;
 } 
 
+
+#aboutPage {
+	text-align: center;
+
+}
+#aboutPage h2 {
+	align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px
+}
+#aboutPage p {
+  align-content: space-between;
+  line-height: 25px;
+  font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+#aboutinfo {
+	text-align: center;
+	text-shadow: none;
+
+}
+#aboutinfo p {
+	align-content: space-between;
+  line-height: 120px;
+  
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 100px;
+font-family: 'Calligraffitti', cursive;
+}
+
+#contentCon{  
+  max-width: 510px;
+  min-width: 324px;
+  padding-left: 50px;
+  
+ 
+}
+#contentCon h2 {
+	align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 0px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px
+}
 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
