@@ -3,31 +3,47 @@
 <head>
   <meta charset="utf-8">
   <title>The beer website</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif|Comfortaa|Gupter|Parisienne|Russo+One&display=swap" rel="stylesheet" type="text/css" media="screen">
+  <script src="https://kit.fontawesome.com/2069507a56.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
-  <header>
-    <h1>The beer Website</h1>
-    <nav>
-      <h2>main nav</h2>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="nearbyStores.html">nearbyStores</a></li>
-        <li><a href="recipies.html">Recipies</a></li>
+  <div id="siteContainer">
+<div class="search-box">
+  <input class="search-txt" type="text" name="" placeholder="type to search">
+  <a class="search-btn" href="#">
+    <i class="fas fa-search"></i>
+  </a>
+</div>
+
+    <div id="mainheader">
+  <header id="mainheader">
+    <h1 class="hidden">The M-beer</h1>
+    <nav id="mainNav" style="height: 110px;">
+      <h2 class="hidden">main nav</h2>
+      <ul class="nav-area">
+        <li><h3>Menu</h3></li>
+        <li class="effect"><a href="index.html">Home</a></li>
+        <li class="effect"><a href="about.html">About Us</a></li>
+        <li class="effect"><a href="contact.html">Contact Us</a></li>
+        <li class="effect"><a href="nearbyStores.html">nearbyStores</a></li>
+        <li class="effect"><a href="recipies.html">Recipies</a></li>
       </ul>
     </nav>
     <img src="images/logo-50.jpg" alt="logo">
   </header>
+    </div>
 <main>
   <section>
-    <h2>Main image</h2>
-    <img src="images/main_Image.jpg" alt="bckgrd image">
+    <div id="content">
+    <h2 class="hidden">Main image</h2>
+    <img class="center" src="images/main_Image.jpg" alt="bckgrd image">
+    </div>
   </section>
   <section>
-   <h2>Our Beers</h2> 
+    <div id="ourbeer">
+   <h2><u><b>Our Beers</b></u></h2> 
    <ul>
      <li>M-Classic</li>
      <li>M-Especial</li>
@@ -36,22 +52,28 @@
      <li>Chelada-Special</li>
      <li>Chelada-Lemon Sal</li>
    </ul>
+   </div>
   </section>
 </main>
 <footer>
-  <h2>footer logo</h2>
+  <div id="footerNav">
+  <h2 class="hidden">footer logo</h2>
   <img src="images/logo-50.jpg" alt="footer logo">
-  <h2>footer nav</h2>
-  <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="nearbyStores.html">nearbyStores</a></li>
-        <li><a href="recipies.html">Recipies</a></li>
+  
+  <h2 class="hidden">footer nav</h2>
+  <nav class="bottomNav">
+    <ul class="nav-area">
+        <li><h3>Menu</h3></li>
+        <li class="effect"><a href="index.html">Home</a></li>
+        <li class="effect"><a href="about.html">About Us</a></li>
+        <li class="effect"><a href="contact.html">Contact Us</a></li>
+        <li class="effect"><a href="nearbyStores.html">nearbyStores</a></li>
+        <li class="effect"><a href="recipies.html">Recipies</a></li>
       </ul>
   </nav>
+  </div>
 </footer>
+</div>
 <script type="js/main.js"></script>
 </body>
 </html>
