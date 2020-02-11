@@ -229,4 +229,45 @@ font-family: 'Calligraffitti', cursive;
   font-family: 'Bree Serif', serif;
   font-size: 25px
 }
+
+#reciMain {
+	
+}
+#reciMain h2 {
+	align-content: space-between;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding-left: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 25px
+}
+#reciMain img {
+	height: 500px;
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+	
+}
+#reciMain h3 {
+	text-align: center;
+	align-content: space-between;
+  line-height: 25px;
+  font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+#reciMain ul li {
+	font-family: 'Comfortaa', cursive;
+  padding-right: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
 width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
